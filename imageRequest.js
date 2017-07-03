@@ -12,7 +12,7 @@ request.get('https://sytantris.github.io/http-examples/future.jpg') //GETS the i
     console.log("Resonse type: ", response.headers['content-type']);
   })
 
-  .on('body', function (body){
+  .on('data', function (data){
     console.log("Download Start");
   })
 
